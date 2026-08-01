@@ -1,10 +1,11 @@
+
 class Shipment:
 
     def __init__(self, shipment_id, order_id, carrier, tracking_number, shipment_status, current_location, estimated_delivery):
 
         self.__shipment_id = shipment_id
         self.__order_id = order_id
-        self.__carrier = carrer
+        self.__carrier = carrier
         self.__tracking_number = tracking_number
         self.__shipment_status = shipment_status
         self.__current_location = current_location
@@ -30,3 +31,4 @@ class Shipment:
 
     def get_estimated_delivery(self):
         return self.__estimated_delivery
+    
